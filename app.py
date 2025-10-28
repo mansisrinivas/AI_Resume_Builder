@@ -14,7 +14,7 @@ def main():
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
     # Title with custom CSS class
-    st.markdown('<h1 class="title">Resume Analyzer</h1>', unsafe_allow_html=True)
+    st.markdown('<h1 class="title">AI Resume Builder</h1>', unsafe_allow_html=True)
 
     # Initialize session state
     if 'job_desc_text' not in st.session_state:
@@ -100,7 +100,7 @@ def main():
     if st.sidebar.button("Start Over"):
         st.session_state.clear()
     st.markdown("---")
-    st.subheader("💬 Resume Coach (Chat)")
+    st.subheader("Chat with your Resume Coach")
 
     if st.session_state.last_analysis is None:
         st.info("Run an analysis first (enter JD + upload at least one resume), then chat here.")
