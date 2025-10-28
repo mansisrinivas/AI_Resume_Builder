@@ -26,11 +26,12 @@
 
 # filepath: c:\Users\SUNYLoaner\Desktop\Buddy\keyword_extraction.py
 import spacy
+from spacy.cli import download
+
 try:
     nlp = spacy.load("en_core_web_sm")
 except OSError:
-    import subprocess
-    subprocess.run(["python", "-m", "spacy", "download", "en_core_web_sm"])
+    download("en_core_web_sm")
     nlp = spacy.load("en_core_web_sm")
 
 

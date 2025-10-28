@@ -1,12 +1,12 @@
 
-pip>=25.0.1
+
 streamlit
 spacy==3.7.6
 markdown-it-py==3.0.0
 rich==13.9.4
 pygments==2.19.1
 mdurl==0.1.2
-https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1.tar.gz
 openai>=1.40.0
 python-dotenv>=1.0.1
 pdfplumber>=0.11.4
+python-3.10
