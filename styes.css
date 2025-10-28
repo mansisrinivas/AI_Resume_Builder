@@ -1,5 +1,5 @@
 .title {
-    color: #f76ca1;  /* Dark pink color */
+    color: #6c98f7;  /* Dark pink color */
     font-family: 'Arial', sans-serif;
     font-size: 3em;
 }
@@ -19,7 +19,7 @@
 
 /* Custom button styles */
 div.stbutton > button {
-    background-color: #aa4675;  /* Dark pink color */
+    background-color: #3ab4ec;  /* Dark pink color */
     color: white;
     border: none;
     padding: 10px 20px;
@@ -33,5 +33,5 @@ div.stbutton > button {
 }
 
 div.stButton > button:hover {
-    background-color: #8d145e;  /* Darker pink color for hover effect */
+    background-color: #143e8d;  /* Darker pink color for hover effect */
 }
