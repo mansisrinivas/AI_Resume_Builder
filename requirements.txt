@@ -1,5 +1,6 @@
 
+numpy==1.24.3
 streamlit
-spacy==3.7.6
+spacy==3.6.1
 pdfplumber
-https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1.tar.gz
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.6.0/en_core_web_sm-3.6.0.tar.gz
