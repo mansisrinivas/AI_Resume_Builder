@@ -7,7 +7,7 @@ from chat_coach import coach_reply
 
 
 def main():
-    st.set_page_config(page_title="Resume Analyzer", layout="wide")
+    st.set_page_config(page_title="AI Resume Builder", layout="wide")
 
    # Read and inject CSS from styles.css
     with open("styes.css") as f:
