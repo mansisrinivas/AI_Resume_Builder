@@ -1,6 +1,6 @@
-thinc==8.2.4
+
 numpy==1.26.4
-blis==0.7.11
+
 streamlit
 spacy==3.7.6
 markdown-it-py==3.0.0
