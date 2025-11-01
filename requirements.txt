@@ -3,5 +3,6 @@ numpy==1.21.6
 streamlit
 spacy==3.4.4
 thinc==8.1.12
+python-dotenv
 pdfplumber
 https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.4.1/en_core_web_sm-3.4.1.tar.gz
